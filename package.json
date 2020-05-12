@@ -1,0 +1,24 @@
+{
+  "name": "video-chat-app",
+  "version": "1.0.0",
+  "description": "Video Chat App using Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch ./src/**/*.ts --exec ts-node ./src/server.ts"
+  },
+  "author": "Dhruv Jain",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^13.13.5",
+    "@types/socket.io": "^2.1.4",
+    "express": "^4.17.1",
+    "socket-io": "^1.0.0",
+    "socket.io": "^2.3.0",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6"
+  }
+}
